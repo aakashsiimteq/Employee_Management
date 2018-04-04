@@ -2,18 +2,18 @@
 
 ### To set project up for virtual host
 ```
-1.
+1. Make changes to your apache configuration File in the xampp folder : C:\xampp\apache\conf\extra\httpd-vhosts
 <VirtualHost *:80>
     DocumentRoot "C:\xampp\htdocs"
     ServerName localhost
 </VirtualHost>
 
 <VirtualHost *:80>
-    DocumentRoot "C:\Users\wolfenstein\Documents\GitHub\Employee_Management\public"
+    DocumentRoot "Your Project Path"
     ServerName employee.dev.project
 </VirtualHost>
 
-2.
+2.Make changes to your Hosts file located in : C:\Windows\System32\drivers\etc\hosts
 127.0.0.1 localhost
 127.0.0.1 employee.dev.project
 

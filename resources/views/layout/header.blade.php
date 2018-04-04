@@ -4,9 +4,9 @@
   <!-- Logo -->
   <a href="/" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
-    <span class="logo-mini"><b>A</b>LT</span>
+    <span class="logo-mini"><b>E</b>MS</span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><b>Siimteq</b> @yield('sidetitle')</span>
+    <span class="logo-lg"><b>Siimteq</b> EMS</span>
   </a>
 
   <!-- Header Navbar -->
@@ -134,7 +134,7 @@
               </p>
             </li>
             <!-- Menu Body -->
-            <li class="user-body">
+            {{-- <li class="user-body">
               <div class="row">
                 <div class="col-xs-4 text-center">
                   <a href="#">Followers</a>
@@ -147,14 +147,15 @@
                 </div>
               </div>
               <!-- /.row -->
-            </li>
+            </li> --}}
             <!-- Menu Footer-->
             <li class="user-footer">
               <div class="pull-left">
-                <a href="#" class="btn btn-default btn-flat">Profile</a>
+                <a href="#" class="btn btn-default btn-flat"><i class="fa fa-user"></i> Profile</a>
               </div>
               <div class="pull-right">
-                <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <a href="/lock" class="btn btn-default btn-flat"><i class="fa fa-lock"></i> Lock</a>
+                <a href="#" class="btn btn-default btn-flat"><i class="fa fa-sign-out"></i> Sign out</a>
               </div>
             </li>
           </ul>

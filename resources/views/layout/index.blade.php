@@ -68,7 +68,7 @@ desired effect
         <section class="content-header">
           <h1>
             {{ $page_title or "Dashboard" }}
-            <small>{{ $page_description or "Optional description" }}</small>
+            <small>{{ $page_description or "Everything at quick glance" }}</small>
           </h1>
           <!-- You can dynamically generate breadcrumbs here -->
           <ol class="breadcrumb">
